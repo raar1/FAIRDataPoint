@@ -22,10 +22,10 @@
  */
 package nl.dtls.fairdatapoint.database.mongo.migration.development;
 
-import nl.dtls.fairdatapoint.Profiles;
 import nl.dtls.fairdatapoint.database.mongo.migration.development.acl.AclMigration;
 import nl.dtls.fairdatapoint.database.mongo.migration.development.membership.MembershipMigration;
 import nl.dtls.fairdatapoint.database.mongo.migration.development.user.UserMigration;
+import nl.dtls.shared.Profiles;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;

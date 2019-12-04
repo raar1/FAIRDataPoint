@@ -22,6 +22,8 @@
  */
 package nl.dtls.fairdatapoint.api.filter;
 
+import nl.dtls.shared.api.filter.CORSFilter;
+import nl.dtls.shared.api.filter.LoggingFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.config.annotation.SecurityConfigurerAdapter;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

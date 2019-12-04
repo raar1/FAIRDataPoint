@@ -25,7 +25,7 @@ package nl.dtls.fairdatapoint.service.member;
 import nl.dtls.fairdatapoint.api.dto.member.MemberDTO;
 import nl.dtls.fairdatapoint.database.mongo.repository.MembershipRepository;
 import nl.dtls.fairdatapoint.database.mongo.repository.UserRepository;
-import nl.dtls.fairdatapoint.entity.exception.ValidationException;
+import nl.dtls.shared.entity.exception.ValidationException;
 import nl.dtls.fairdatapoint.entity.membership.Membership;
 import nl.dtls.fairdatapoint.entity.membership.MembershipPermission;
 import nl.dtls.fairdatapoint.entity.user.User;

@@ -26,7 +26,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import nl.dtl.fairmetadata4j.model.DataRecordMetadata;
 import nl.dtls.fairdatapoint.api.controller.metadata.MetadataController;
-import nl.dtls.fairdatapoint.entity.exception.ResourceNotFoundException;
+import nl.dtls.shared.entity.exception.ResourceNotFoundException;
 import nl.dtls.fairdatapoint.service.metadata.common.MetadataServiceException;
 import org.eclipse.rdf4j.model.IRI;
 import org.springframework.http.HttpHeaders;

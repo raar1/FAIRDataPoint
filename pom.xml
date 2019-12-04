@@ -48,6 +48,7 @@
 
         <!-- Project related -->
         <fairmetadata.version>0.1-beta</fairmetadata.version>
+        <shared.version>0.1-beta</shared.version>
 
         <!-- Spring -->
         <spring.boot.handlebars.version>0.3.0</spring.boot.handlebars.version>
@@ -81,6 +82,11 @@
         <!-- ////////////////// -->
         <!--   Project related  -->
         <!-- ////////////////// -->
+        <dependency>
+            <groupId>nl.dtls</groupId>
+            <artifactId>shared</artifactId>
+            <version>${shared.version}</version>
+        </dependency>
         <dependency>
             <groupId>nl.dtl</groupId>
             <artifactId>fairmetadata4j</artifactId>

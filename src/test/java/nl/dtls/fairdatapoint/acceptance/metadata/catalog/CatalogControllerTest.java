@@ -24,7 +24,7 @@ package nl.dtls.fairdatapoint.acceptance.metadata.catalog;
 
 import nl.dtls.fairdatapoint.acceptance.metadata.common.MetadataControllerTest;
 import nl.dtls.fairdatapoint.database.rdf.migration.MetadataFixtures;
-import nl.dtls.fairdatapoint.entity.exception.ResourceNotFoundException;
+import nl.dtls.shared.entity.exception.ResourceNotFoundException;
 import nl.dtls.fairdatapoint.utils.MetadataFixtureFilesHelper;
 import org.apache.http.HttpHeaders;
 import org.eclipse.rdf4j.model.vocabulary.DCTERMS;

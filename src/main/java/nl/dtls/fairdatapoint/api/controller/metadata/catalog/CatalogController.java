@@ -30,7 +30,7 @@ import nl.dtls.fairdatapoint.api.controller.metadata.MetadataController;
 import nl.dtls.fairdatapoint.api.dto.member.MemberDTO;
 import nl.dtls.fairdatapoint.api.dto.metadata.CatalogMetadataChangeDTO;
 import nl.dtls.fairdatapoint.api.dto.metadata.CatalogMetadataDTO;
-import nl.dtls.fairdatapoint.entity.exception.ResourceNotFoundException;
+import nl.dtls.shared.entity.exception.ResourceNotFoundException;
 import nl.dtls.fairdatapoint.service.member.MemberService;
 import nl.dtls.fairdatapoint.service.metadata.catalog.CatalogMetadataMapper;
 import nl.dtls.fairdatapoint.service.metadata.common.MetadataServiceException;

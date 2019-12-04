@@ -29,11 +29,11 @@ package nl.dtls.fairdatapoint.acceptance.metadata.common;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import nl.dtls.fairdatapoint.BaseIntegrationTest;
-import nl.dtls.fairdatapoint.api.filter.CORSFilter;
 import nl.dtls.fairdatapoint.api.filter.JwtTokenFilter;
-import nl.dtls.fairdatapoint.api.filter.LoggingFilter;
 import nl.dtls.fairdatapoint.service.metadata.common.MetadataServiceException;
 import nl.dtls.fairdatapoint.utils.MetadataFixtureLoader;
+import nl.dtls.shared.api.filter.CORSFilter;
+import nl.dtls.shared.api.filter.LoggingFilter;
 import org.junit.jupiter.api.BeforeEach;
 import org.mockito.InjectMocks;
 import org.springframework.beans.factory.annotation.Autowired;

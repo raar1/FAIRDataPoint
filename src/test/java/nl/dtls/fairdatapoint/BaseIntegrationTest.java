@@ -22,6 +22,7 @@
  */
 package nl.dtls.fairdatapoint;
 
+import nl.dtls.shared.Profiles;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;

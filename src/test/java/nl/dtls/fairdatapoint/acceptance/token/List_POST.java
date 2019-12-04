@@ -24,8 +24,8 @@ package nl.dtls.fairdatapoint.acceptance.token;
 
 import nl.dtls.fairdatapoint.WebIntegrationTest;
 import nl.dtls.fairdatapoint.api.dto.auth.AuthDTO;
-import nl.dtls.fairdatapoint.api.dto.auth.TokenDTO;
-import nl.dtls.fairdatapoint.api.dto.error.ErrorDTO;
+import nl.dtls.shared.api.dto.auth.TokenDTO;
+import nl.dtls.shared.api.dto.error.ErrorDTO;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.core.ParameterizedTypeReference;

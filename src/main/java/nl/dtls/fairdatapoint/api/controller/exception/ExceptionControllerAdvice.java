@@ -29,12 +29,12 @@ package nl.dtls.fairdatapoint.api.controller.exception;
 
 import nl.dtl.fairmetadata4j.io.MetadataException;
 import nl.dtl.fairmetadata4j.io.MetadataParserException;
-import nl.dtls.fairdatapoint.api.dto.error.ErrorDTO;
-import nl.dtls.fairdatapoint.entity.exception.ForbiddenException;
-import nl.dtls.fairdatapoint.entity.exception.ResourceNotFoundException;
-import nl.dtls.fairdatapoint.entity.exception.UnauthorizedException;
-import nl.dtls.fairdatapoint.entity.exception.ValidationException;
+import nl.dtls.shared.entity.exception.ForbiddenException;
+import nl.dtls.shared.entity.exception.ResourceNotFoundException;
+import nl.dtls.shared.entity.exception.UnauthorizedException;
+import nl.dtls.shared.entity.exception.ValidationException;
 import nl.dtls.fairdatapoint.service.metadata.common.MetadataServiceException;
+import nl.dtls.shared.api.dto.error.ErrorDTO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;

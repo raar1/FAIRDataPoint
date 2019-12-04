@@ -23,6 +23,7 @@
 package nl.dtls.fairdatapoint;
 
 import nl.dtls.fairdatapoint.database.mongo.migration.development.MigrationRunner;
+import nl.dtls.shared.Profiles;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

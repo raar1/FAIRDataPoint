@@ -23,9 +23,9 @@
 package nl.dtls.fairdatapoint.api.filter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import nl.dtls.fairdatapoint.api.dto.error.ErrorDTO;
-import nl.dtls.fairdatapoint.entity.exception.UnauthorizedException;
+import nl.dtls.shared.entity.exception.UnauthorizedException;
 import nl.dtls.fairdatapoint.service.jwt.JwtService;
+import nl.dtls.shared.api.dto.error.ErrorDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

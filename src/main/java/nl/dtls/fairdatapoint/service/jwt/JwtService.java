@@ -25,7 +25,7 @@ package nl.dtls.fairdatapoint.service.jwt;
 import io.jsonwebtoken.*;
 import nl.dtls.fairdatapoint.api.dto.auth.AuthDTO;
 import nl.dtls.fairdatapoint.database.mongo.repository.UserRepository;
-import nl.dtls.fairdatapoint.entity.exception.UnauthorizedException;
+import nl.dtls.shared.entity.exception.UnauthorizedException;
 import nl.dtls.fairdatapoint.entity.user.User;
 import nl.dtls.fairdatapoint.service.security.MongoAuthenticationService;
 import org.springframework.beans.factory.annotation.Autowired;

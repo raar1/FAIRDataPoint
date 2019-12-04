@@ -26,7 +26,7 @@ import nl.dtls.fairdatapoint.api.dto.user.UserChangeDTO;
 import nl.dtls.fairdatapoint.api.dto.user.UserCreateDTO;
 import nl.dtls.fairdatapoint.api.dto.user.UserDTO;
 import nl.dtls.fairdatapoint.api.dto.user.UserPasswordDTO;
-import nl.dtls.fairdatapoint.entity.exception.ResourceNotFoundException;
+import nl.dtls.shared.entity.exception.ResourceNotFoundException;
 import nl.dtls.fairdatapoint.service.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;

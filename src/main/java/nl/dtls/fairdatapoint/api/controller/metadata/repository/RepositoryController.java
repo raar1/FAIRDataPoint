@@ -28,7 +28,7 @@ import nl.dtl.fairmetadata4j.model.FDPMetadata;
 import nl.dtls.fairdatapoint.api.controller.metadata.MetadataController;
 import nl.dtls.fairdatapoint.api.dto.metadata.RepositoryMetadataChangeDTO;
 import nl.dtls.fairdatapoint.api.dto.metadata.RepositoryMetadataDTO;
-import nl.dtls.fairdatapoint.entity.exception.ResourceNotFoundException;
+import nl.dtls.shared.entity.exception.ResourceNotFoundException;
 import nl.dtls.fairdatapoint.service.metadata.common.MetadataServiceException;
 import nl.dtls.fairdatapoint.service.metadata.repository.RepositoryMetadataMapper;
 import org.eclipse.rdf4j.model.IRI;

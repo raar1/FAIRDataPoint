@@ -22,6 +22,7 @@
  */
 package nl.dtls.fairdatapoint;
 
+import nl.dtls.shared.Profiles;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
@@ -31,7 +32,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @SpringBootApplication
 @EnableWebMvc
 @EnableAsync
-@ComponentScan(basePackages = "nl.dtls.fairdatapoint.*")
+@ComponentScan(basePackages = {"nl.dtls.fairdatapoint.*", "nl.dtls.shared.*"})
 public class Application {
 
     public static void main(String[] args) {

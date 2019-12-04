@@ -23,7 +23,7 @@
 package nl.dtls.fairdatapoint.acceptance.metadata.dataset;
 
 import nl.dtls.fairdatapoint.acceptance.metadata.common.MetadataControllerTest;
-import nl.dtls.fairdatapoint.entity.exception.ResourceNotFoundException;
+import nl.dtls.shared.entity.exception.ResourceNotFoundException;
 import nl.dtls.fairdatapoint.utils.MetadataFixtureFilesHelper;
 import org.apache.http.HttpHeaders;
 import org.junit.jupiter.api.Disabled;

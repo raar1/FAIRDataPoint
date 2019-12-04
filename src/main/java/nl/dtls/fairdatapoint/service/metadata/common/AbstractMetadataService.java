@@ -33,7 +33,7 @@ import nl.dtl.fairmetadata4j.utils.RDFUtils;
 import nl.dtl.fairmetadata4j.utils.vocabulary.DATACITE;
 import nl.dtls.fairdatapoint.database.rdf.repository.common.MetadataRepository;
 import nl.dtls.fairdatapoint.database.rdf.repository.common.MetadataRepositoryException;
-import nl.dtls.fairdatapoint.entity.exception.ResourceNotFoundException;
+import nl.dtls.shared.entity.exception.ResourceNotFoundException;
 import nl.dtls.fairdatapoint.entity.user.User;
 import nl.dtls.fairdatapoint.service.member.MemberService;
 import nl.dtls.fairdatapoint.service.metadatametrics.FairMetadataMetricsService;

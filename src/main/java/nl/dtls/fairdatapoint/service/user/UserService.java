@@ -27,7 +27,7 @@ import nl.dtls.fairdatapoint.api.dto.user.UserCreateDTO;
 import nl.dtls.fairdatapoint.api.dto.user.UserDTO;
 import nl.dtls.fairdatapoint.api.dto.user.UserPasswordDTO;
 import nl.dtls.fairdatapoint.database.mongo.repository.UserRepository;
-import nl.dtls.fairdatapoint.entity.exception.ValidationException;
+import nl.dtls.shared.entity.exception.ValidationException;
 import nl.dtls.fairdatapoint.entity.user.User;
 import nl.dtls.fairdatapoint.service.member.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
