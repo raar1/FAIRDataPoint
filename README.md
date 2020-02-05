@@ -17,7 +17,7 @@ More information about FDP and how to deploy can be found at [FDP Public Documen
 
  - **Java** (recommended JDK 11)
  - **Maven** (recommended 3.2.5 or higher)
- - **MongoDB**
+ - **MongoDB** - *for tests to work locally*
  - **Docker** (recommended 17.09.0-ce or higher) - *for build of production image*
 
 **Additional libraries:**
