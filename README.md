@@ -71,7 +71,7 @@ $ mvn package
 ### Troubleshooting
 If the above steps give compilation errors (e.g. 'missing main class' compilation errors), try the following directly:
 ```bash
-$ mvn clean package spring-boot:start
+$ mvn clean package
 ```
 If the tests hang indefinitely (infinitely looping Spring ASCII logo) then make sure that mongodb is installed and that a service is running.
 
